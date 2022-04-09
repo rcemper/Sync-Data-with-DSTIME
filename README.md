@@ -23,15 +23,15 @@ And as you do the synchronization by pure SQL your target can be _any_ DB unders
   
 I extended class %SYSTEM.DSTIME to allow Pure SQL Operation  
 
-The demo class is a copy of Sample.Person amd it runs in namespace SAMPLES.   
+The demo class is a copy of Sample.Person amd it runs in namespace IRISAPP.   
 
 Typical scenario:
 ~~~
-  SAMPLES>write ##class(OBJ.Person).Populate(15)  
+  IRISAPP>write ##class(OBJ.Person).Populate(15)  
   15  
-  SAMPLES>do $system.SQL.Shell()  
-  SAMPLES>>DELETE FROM OBJ.PERSON WHERE ID IN (2,5,9)  
-  SAMPLES>>Update OBJ.PERSON SET NAME='Robert' WHERE ID IN (3,7)  
+  IRISAPP>do $system.SQL.Shell()  
+  IRISAPP>>DELETE FROM OBJ.PERSON WHERE ID IN (2,5,9)  
+  IRISAPP>>Update OBJ.PERSON SET NAME='Robert' WHERE ID IN (3,7)  
 ~~~
 
 Now we can take a look on OBJ.DSTIME  
