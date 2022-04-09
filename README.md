@@ -1,9 +1,3 @@
- ~~~
- This is a coding example working on IRIS 2020.1 and on Caché 2018.1.3 
- It will not be kept in sync with new versions      
- It is also NOT serviced by InterSystems Support !   
-~~~ 
-
 Other Sync-Tools just work from Caché/IRIS to Caché/IRIS.  
 Synchronizing your data to some external DB requires some other solution.  
   
@@ -89,3 +83,8 @@ This solution uses the **actual** content of your Objects / Tables.
 So if the version of the object log is out of date you may see some newer content if additional changes were applied since.
 
 [Article in DC](https://community.intersystems.com/post/synchronize-data-dstime)
+
+[Demo Server SMP](https://sync-dstime.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
+[Demo Server WebTerminal](https://excel-light.demo.community.intersystems.com/terminal/)    
+        
+**Code Quality** in SCREENSHOTS   
