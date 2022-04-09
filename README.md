@@ -85,6 +85,6 @@ So if the version of the object log is out of date you may see some newer conten
 [Article in DC](https://community.intersystems.com/post/synchronize-data-dstime)
 
 [Demo Server SMP](https://sync-dstime.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
-[Demo Server WebTerminal](https://excel-light.demo.community.intersystems.com/terminal/)    
+[Demo Server WebTerminal](https://sync-dstime.demo.community.intersystems.com/terminal/)    
         
 **Code Quality** in SCREENSHOTS   
